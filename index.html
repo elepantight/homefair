@@ -1,0 +1,608 @@
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>HomeFair</title>
+	<!-- Meta tag Keywords -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8" />
+	<meta name="keywords" content="HomeFair | förmedlare av mäklare " />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script>
+function myFunction() {
+  var x = document.getElementById("val");
+  if (x.style.display === "block") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+} 
+
+		function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--// Meta tag Keywords -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<!-- Custom-Files -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Bootstrap-Core-CSS -->
+	<link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
+	<!-- banner slider -->
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+	<!-- Style-CSS -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Font-Awesome-Icons-CSS -->
+	<!-- //Custom-Files -->
+
+	<!-- Web-Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Arvo:400,700|Josefin+Sans:300,400,700|Lato&display=swap" rel="stylesheet"> 
+	<!-- //Web-Fonts -->
+
+</head>
+
+<body>
+	<!-- main -->
+	<div id="home">
+			<!-- header -->
+			<header>
+				<div class="container-fluid">
+					<div class="header d-md-flex justify-content-between align-items-center py-sm-3 py-2 px-xl-5 px-lg-3 px-2">
+						<!-- logo -->
+						<div class="logoHF" id="logo">
+							<img src="/images/HomeFair_logo.png" style="width: 100%;" alt="">
+						</div>
+						<!-- //logo -->
+						<!-- nav -->
+						<div class="nav_mob-temsls">
+							<nav>
+								<label for="drop" class="toggle toogle-2">Menu</label>
+								<input type="checkbox" id="drop" />
+								<ul class="menu">
+									<li class="active"><a href="index.html">Sälj</a></li>
+									<li class="mx-lg-4 mx-md-3 my-md-0 my-2"><a href="#about">Om oss</a></li>
+									<li>
+										<!-- First Tier Drop Down -->
+										<label for="drop-2" class="toggle">HomeFair<span class="fa fa-angle-down" aria-hidden="true"></span>
+										</label>
+										<a href="#">Mer <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+										<input type="checkbox" id="drop-2" />
+										<ul>
+											<li><a href="#stats" class="drop-text">Kommer snart</a></li>
+											<li><a href="#price" class="drop-text">Kommer snart</a></li>
+											<li><a href="#what" class="drop-text">Kommer snart</a></li>
+											<li><a href="#dis" class="drop-text">Kommer snart</a></li>
+											<li><a href="#blog" class="drop-text">Kommer snart</a></li>
+											<li><a href="#gallery" class="drop-text">Kommer snart</a></li>
+										</ul>
+									</li>
+									<li class="ml-lg-4 ml-md-3 my-md-0 my-2"><a href="#contact">Kontakta oss</a></li>
+								</ul>
+							</nav>
+						</div>
+						<!-- //nav -->
+						<div class="header-top_mob-temslayouts text-center">
+							<p class="text-wh">
+								<span class="fa fa-phone mr-2"></span>+47 410 14 758
+							</p>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- //header --><!-- //header --><!-- //header --><!-- //header -->
+
+				<!-- about --><!-- about --><!-- about --><!-- about --><!-- about -->
+	<div class="about py-5 mt-lg-5" id="about">
+			<div class="container py-xl-5 py-lg-3">
+					<h1 class="mb-md-4 mb-3 mt-lg-5 ml-lg-5 ">Vurderer du å selge din bolig? </h1>
+				</div>	
+		<div class="row about-bottom-mob-temsl text-center pt-xl-5 pt-lg-4">
+	<!--BOX1-->	
+	<div class="about-grid-main pb-lg-5">
+	<div class="col-sm-8 about-grid-1 mb-lg-5 ">
+			<h1 class="mb-md-4 mb-3 mt-lg-5">Finn ut verdien av din bolig</h1>
+				<div class="md-form mt-0">
+						<input class="searchForm mt-4" type="text" placeholder="Tex. Platusgate 31" aria-label="Search">
+				</div>
+				<a href="#search1" class="button-mob-temsls btn mt-4">Sök</a>
+			</div>
+
+	
+	<!--BOX2-->			<!--BOX2-->		
+			
+		<div class="col-sm-8 about-grid-2 pt-lg-5">
+				<h1 class="mt-4 mb-3">Hvordan fungerer boligselgertjenesten?</h1>
+				<p>Du søker på din adresse og vår modell lager et prisestimat på din bolig og vurderer hva hver enkel eiendomsmegler, som opererer i ditt område, vil kunne selge din bolig for. 
+				Vi bruker flere hundrede variabler samt salgshistorikken til eiendomsmeglerne som grunnlag for vår intelligente løsning. </p>
+				<img src="/illustrasjoner/søk_selg1.svg" alt="" class="img-fluid">
+		</div>
+		<!--BOX3-->	<!--BOX3--><!--BOX3-->
+	
+		<div class="col-sm-8 about-grid-3">
+				<h1 class="mt-4 mb-3">HVA TJENER DU?</h1>
+				<p>Du får et gratis prisestimat og du blir opplyst om forskjellen i forventet salgspris om du bruker en høytpresterende megler sammenlignet med en lavtpresterende megler; altså hvor mye du potensielt sett kan spare på riktig meglervalg for nettopp din bolig. </p>
+				<img src="/illustrasjoner/hva_tjener_du.svg" alt="" class="img-fluid">
+		</div>
+		<!--BOX4-->	<!--BOX4-->	<!--BOX4-->	<!--BOX4-->
+		<div class="col-sm-8 about-grid-4">
+				<h1 class="mt-4 mb-3">FÅ TILGANG</h1>
+				<p>Deretter får du tilgang til listen over de 5 beste meglerne 
+					slik at du vet hvem som, statistisk sett, vil kunne selge din bolig til høyest pris. 
+					Du får også tilgang til annen viktig innsikt om ditt boligsalg og meglernes historikk </p>
+				<img src="/illustrasjoner/få_tilgang.svg" alt="" class="img-fluid">
+		</div>
+		<!--BOX SLUT -->
+</div>
+</div>
+</div>
+		</div>
+		<div class="newsletterField ml-lg-4">
+		<div class="md-form mt-0">
+			<h1>Abonner på nyhetsbrev</h1>
+			<input class="searchForm mt-4" type="text" placeholder="E-mail" aria-label="Search">
+	</div>
+	<a href="#" class="button-mob-temsls btn mt-4">Registrera</a>
+</div>
+		<!-- //about -->		<!-- //about -->		<!-- //about -->		<!-- //about -->		<!-- //about -->
+
+<!-- Pop-up--><!-- Pop-up--><!-- Pop-up--><!-- Pop-up--><!-- Pop-up--><!-- Pop-up-->
+	<section class="container-popup text-center py-5" id="search1">
+			<div class="container py-xl-5 py-lg-3">
+				
+				<h2 class="text-bl font-weight-bold mb-sm-5 mb-4">Primærrom (P rom) </h2>
+					<p>Avhengig av datatilgjengelighet, vil informasjonen 
+							muligvis bli brukt til å gi deg et mer treffsikkert estimat. </p>
+					<p>Effekten av oppussing er vanligvis merkbar, men avhenger blant annet av boligtype og lokalitet.
+						<br> Velg nedenfor for et mer treffsikkert estimat. </p>
+					<div class="md-form mt-0">
+							<p>Primærrom gir et bedre estimat enn bruksareal 
+									og er derfor ønskelig å anvende i prediksjonen. </p>
+							<input class="searchForm-pop mt-4" type="text" placeholder="kvm" aria-label="kvm">
+					
+					<div class="pop1">
+					<h1 class="text-bl font-weight-bold mb-sm-5 mb-4">Har du følgende? </h1>
+				<ul class="list-unstyled partners-icon pt-5">
+					<li><button>
+							<img src="/illustrasjoner/Garasj.svg" style="width:100%" id="garasj" alt="garasj">
+						</button>
+						<button>
+								<img src="/illustrasjoner/Balkong.svg" style="width:100%" id="balkong" alt="">
+							</button></li>
+				</ul>
+						</div>
+					</div>
+					<div class="pop2">
+						<h1 class="text-bl font-weight-bold mb-sm-5 mb-4">Har du oppusset følgende siden du kjøpte din bolig? </h1>
+							<ul class="list-unstyled partners-icon pt-5">
+					<li><button>
+							<img src="/illustrasjoner/Bad.svg" style="width:100%" id="bad" alt="">
+						</button>
+						<button>
+								<img src="/illustrasjoner/Kjøkken.svg" style="width:100%" id="kök"alt="">
+							</button></li>
+				</ul>
+				
+					 
+			</div>
+			<a href="#info">
+					<img src ="/ikoner/Arrow Drop Up - Filled.svg" />
+				 </a>
+		</div>
+		</section>
+<!-- Pop-up slut--><!-- Pop-up slut--><!-- Pop-up slut--><!-- Pop-up slut--><!-- Pop-up slut--><!-- Pop-up slut-->
+
+	<!-- INFO BOLIG --><!-- INFO BOLIG --><!-- INFO BOLIG --><!-- INFO BOLIG --><!-- INFO BOLIG -->
+	<div class="mob-temsls-middle py-5" id="info">
+		<div class="container-fluid py-xl-5 py-lg-3">
+			<h1 class="title-info  text-bl mb-sm-5 mb-4">Platous gate 31, 0190 Oslo
+				<span class="mt-2">Etg.10 H1003</span>
+			</h1>
+			<div class="row pt-xl-5">
+				<div class="col-lg-6 text-center mt-lg-3">
+					<img src="/images/platous.jpg"  id="platous" alt="" class="img-fluid chef-img">
+				</div>
+				<div class="col-lg-4 pl-lg-5 mt-lg-0 mt-4">
+					<div class="service1-homeFair-mobs border-bottom">
+						<h1>Boligprisestimat</h1>
+						<p>7 000 000 kr</p>
+					</div>
+					<div class="service1-homeFair-mobs my-xl-5 my-lg-4 my-sm-5 my-4 border-bottom">
+						<h1>Antall meglere vi sammenlignet </h1>
+						<p>5 st</p>
+					</div>
+					<div class="service1-homeFair-mobs border-bottom">
+						<h1>Salgspris med høytpresterende megler </h1>
+						<p>14 500 000 kr</p>
+					</div>
+					<div class="service1-homeFair-mobs border-bottom">
+						<h1>Salgpris med lavtpresterande megler</h1>
+						<p>7 500 000 kr</p>
+					</div>
+					<div class="service1-homeFair-mobs my-xl-5 my-lg-4 my-sm-5 my-4 border-bottom">
+						<h1>Potensiell gevinst</h1>
+						<p>500 000 kr - 7 000 000 kr</p>
+					</div>
+					<a onclick="myFunction()" class="button-mob-temsls btn mt-4">Mer informasjon</a>
+				</div>
+				<div class="offset-lg-2"></div>
+			</div>
+		</div>
+	</div>
+	<!-- INFO BOLIG SLUT --><!-- INFO BOLIG SLUT --><!-- INFO BOLIG SLUT --><!-- INFO BOLIG SLUT --><!-- INFO BOLIG SLUT -->
+		
+		<!-- to alternativer et valg-->		<!-- to alternativer et valg-->		<!-- to alternativer et valg-->		<!-- to alternativer et valg-->		<!-- to alternativer et valg-->
+	
+		<div id="val">
+		<div class="price-home py-5" id="">
+				<div class="container py-xl-5 py-lg-3">
+					<h1 class="title text-center text-wh mb-5">To alternativer, 
+						<span class="mt-2 text-wh">et valg </span>
+					</h1>
+					<div class="row price-grid-main pt-xl-4">
+						<div class="col-lg-6 price-info">
+							<div class="prices-top">
+								<h3 class="text-center text-capitalize text-wh">1499 kr
+									<span>Dette får du</span>
+								</h3>
+							</div>
+							<div class="prices-bottom text-center p-4">
+								<div class="prices-h pb-4">
+									<p>En liste med de <span>5 beste meglerne</span> vi fant for nettopp
+										 din bolig og hva vi estimerer de kan selge boligen for. </p>
+									<img src="/ikoner/liste.svg">
+								</div>
+								<div class="prices-h  pb-4">
+										<p>Hvor lenge de 5 beste meglerne i gjennomsnitt bruker på å selge en bolig. </p>
+										<img src="/ikoner/klokke.svg">
+									</div>
+									<div class="prices-h  pb-4">
+											<p>Hvor mye de 5 beste meglerne i gjennomsnitt feilvurderer salgsprisen. </p>
+											<img src="/ikoner/prosent.svg">
+										</div>
+										<a href="#" class="button-mob-temsls btn mt-4">Sök</a>
+
+							</div>
+						</div>
+						<div class="col-lg-6 price-info">
+								<div class="prices-top">
+									<h3 class="text-center text-capitalize text-wh">0 kr
+										<span>Dette får du</span>
+									</h3>
+								</div>
+								<div class="prices-bottom text-center p-4">
+									<div class="prices-h  pb-4">
+										<p>En liste med de <span>5 beste meglerne</span> vi har en avtale med.
+											Akkurat som ved mulighet 1, men uten de som ikke har avtale med oss.  </p>
+										<img src="/ikoner/liste.svg">
+									</div>
+									<div class="prices-h  pb-4">
+											<p>Hvor lenge disse meglerne i gjennomsnitt bruker på å selge en bolig. </p>
+											<img src="/ikoner/klokke.svg">
+										</div>
+										<div class="prices-h  pb-4">
+												<p>Hvor mye disse meglerne i gjennomsnitt feilvurderer salgsprisen. </p>
+												<img src="/ikoner/prosent.svg">
+											</div>
+											<a href="#" class="button-mob-temsls btn mt-4">Sök</a>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!-- //price --><!-- //price --><!-- //price --><!-- //price --><!-- //price --><!-- //price -->
+		<!-- AI 		<!-- AI -->		<!-- AI 		<!-- AI 	<!-- AI 	<!-- AI 
+	<div class="about py-5" id="about">
+		<div class="container py-2 py-3">
+			<h3 class="title text-center text-bl mb-5">Vi bruker kunstig intelligens til å estimere
+				 din boligverdi og til å finne meglerne som sikrer deg høyeste markedspris. <br>
+		<span class="mt-2">Nedenfor kan du lese mere om hvordan vi gjør og hvorfor vi gjør det.</span><br>
+		<img src="/images/ai.svg" style="width:40%"alt="" class="img-fluid">
+	</h3>
+	<div class="row about-bottom-mob-temsl text-center pt-xl-5 pt-lg-4">
+		<div class="col-sm-6 about-grid">
+			<div class="about-grid-main2">
+				<h4 class="mt-4 mb-3">Prisestimater </h4>
+	<p> Boligprisestimatene våre blir til via kunstig intelligens, hvor vi anvender en kombinasjon
+	av ulike maskinlæringsalgoritmer, flere hundre variabler samt mange millioner datapunkter.
+	<br>Vi anvender primært data fra offentlige kilder. Det kan være “vanlige” variabler som 
+	boligens beliggenhet, størrelse og historiske omsetninger samt “avanserte” variabler 
+	som for eksempel utsikt og solforhold. <br><br>Dette fordi at dataen viser oss at bra utsikt 
+	og gode lysforhold er korrelert med høyere markedspris. <br>Vi ønsker å øke treffsikkerheten
+	på våre prisestimater, så vi jobber kontinuerlig med utviklingen av våre algoritmer
+	samt med innsamling og foredling av data til modellene. 
+	På tross av, at vi er kommet langt med våre prisestimater, er disse fremdeles estimater.
+	Det vil derfor alltid være en feilmargin knyttet til disse og det endelige svaret på 
+	boligverdien oppnås først ved fritt salg.<br><br> Det er derfor lurt å forhøre seg med
+	fagpersoner såsom eiendomsmeglere og takstpersoner, slik at du har flere kilder 
+	til å vurdere verdien på din bolig.
+	</p><a href="#" class="button-mob-temsls btn mt-4">Read More</a>
+		</div>
+	</div>
+	<div class="col-sm-6 about-grid mt-sm-0 mt-4">
+		<div class="about-grid-main2">
+	<h4 class="mt-4 mb-3">Meglerestimater</h4>
+		<p>Akkurat som ved prisestimatene bruker vi kunstig intelligens til å vurdere 
+			meglernes evne til boligsalg. Vi har registrert hvilke boliger meglerne har
+			solgt og kan derfor bruke dette i vårt datagrunnlag ved sammenligning.
+			Det er selvfølgelig en feilmargin tilknyttet estimatet, men dataen 
+			fremstiller klart at noen meglere er flinkere til å få høye markedspriser. 
+			<br><br>Men betyr dette at vi bare bruker gjennomsnittlig kvadratmeterpris 
+			som meglerne har oppnådd når vi sammenligner de? Nei da. 
+			Modellene korrigerer automatisk for effekten av andre variabler 
+			som påvirker boligprisen, slik at effekten av hvilken
+			eiendomsmegler som selger isoleres. Det blir derfor mulig
+			å sammenligne to megleres prestasjoner på to ulike salg fordi 
+			vi korrigerer for effekten av forskjellene i boligene. 
+			<br><br>Vi bruker også kryssvalidering 
+			<a href="//en.wikipedia.org/wiki/Cross-validation_(statistics)">
+			https://en.wikipedia.org/wiki/Cross-validation_(statistics)</a> 
+			for å sikre at våre estimater er representative og generaliserbare, 
+			slik at estimatene du får levert har verdi. </p>
+	<a href="#" class="button-mob-temsls btn mt-4">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+			<!-- //AI -->
+			<!-- Q AND A-->
+	<div class="container py-xl-5 py-lg-3">
+			<div class="container"><div class="panel-group" id="accordion">
+			<div class="panel panel-default">
+			<div class="panel">
+				<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Har meglerne samme insentiv som boligselger? </a>
+				</h4>
+			</div>
+			<div id="collapse1" class="panel-collapse collapse">
+				<div class="panel-body"><p>
+			Slik markedet er nå, kan det bedre lønne seg for en megler
+			å selge flere boliger enn å bruke mer tid og energi på å selge 
+			din bolig til høyest mulig pris. Et par hundre tusen ekstra ved 
+			salg har stor betydning for din økonomi, men påvirker ikke
+				meglerens provisjon nevneverdig. Det kan bety at du risikerer
+				en lavere sluttpris enn det din bolig er verdt. Vi vil gjerne 
+				nevne her, at det er markedet som er problemet, ikke meglerne. 
+				Når man bruker HomeFair, blir det skapt et insentiv for at meglerne 
+				gir det lille ekstra som skal til, for å få høyest mulig markedspris. 
+				Dette fordi det vil avspeile seg i våre meglerestimater. 
+				Gjør de en bra jobb, vil de i fremtiden få flere oppdrag via vår 
+				tjeneste. Slik skal det være, litt mer fair.</p></div>
+			</div>
+			</div>
+			<div class="panel panel-default">
+			<div class="panel">
+				<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Hvorfor bruke dere til å innhente tilbud i stedet for de andre aktører på markedet? </a>
+				</h4>
+			</div>
+	<div id="collapse2" class="panel-collapse collapse">
+		<div class="panel-body"><p>
+			Når du innhenter tilbud via de andre tjenester, sender de en epost
+			til lokalkontorene med informasjon om ditt boligsalg.
+			De eiendomsmeglerne som er ledige der og da, vil da 
+			kontakte deg med henblikk på salg. Kunne det tenkes at de meglerne
+			som er ledige der og da, kanskje ikke er de beste på markedet? 
+			Du risikerer altså å få tilbud fra lavtpresterende meglere.
+			Vi mener at du ikke bør ta den risikoen. Med oss får du de 
+			5 beste meglerne rangert etter hvor mye vi vurderer de kan 
+			selge boligen din for.</p></div>
+		</div>
+			</div>
+			<div class="panel panel-default">
+			<div class="panel">
+		<h4 class="panel-title">
+		<a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Hvorfor ikke bruke anmeldelser av eiendomsmeglere som metode for å finne beste megler? </a>
+		</h4>
+	</div>
+	<div id="collapse3" class="panel-collapse collapse">
+		<div class="panel-body"><p>
+			Å bruke anmeldelser er i utgangspunktet bra, men når nesten alle
+				meglerne har fått topp-karakterer, er det enormt vanskelig å
+				vurdere forskjellen på dem. Samtidig er anmeldelser også 
+				subjektive og langt størsteparten legger ikke igjen anmeldelser
+				etter salg. Med andre ord, får du ikke et fair innblikk i
+				hvor dyktige meglerne faktisk er. Vi tilbyr markedets beste 
+				og eneste reelle metode for sammenligning av eiendomsmeglere. </p></div>
+	</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel">
+			<h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Er det ikke slik at de beste meglerne er de som selger flest boliger? </a>
+			</h4>
+		</div>
+	<div id="collapse4" class="panel-collapse collapse">
+		<div class="panel-body"><p>
+			De som selger flest boliger vil være de «beste» for eiendomsmeglerhusene
+				fordi de skaper høyest omsetning. Det betyr dermed ikke at de vil kunne 
+				få høyeste markedspris for din bolig. Ofte kan dette faktisk bety at de
+				omsetter boligen til lavere sluttpris fordi de ikke har samme insentiv
+				som boligselger (se "Har meglerne samme insentiv som boligselger"). </p></div>
+	</div>
+	</div>
+	<div class="panel panel-default">
+		<div class="panel">
+			<h4 class="panel-title">
+			<a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Hvorfor får jeg ikke listen med alle meglerne, men kun de fem beste?  </a>
+			</h4>
+		</div>
+		<div id="collapse5" class="panel-collapse collapse">
+			<div class="panel-body"><p> 
+				Vi ønsker ikke å utstille meglere som ikke kommer godt ut i 
+				våre prediksjoner, da det først om fremst ikke er veldig hyggelig,
+					men også fordi meglerne likevel ikke er aktuelle kandidater for
+					å selge din bolig. Ingen er tjent med at denne informasjonen blir 
+					gjort tilgjengelig. </p></div>
+		</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel">
+				<h4 class="panel-title">
+				<a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Hvorfor er mitt estimat for høyt/lavt?  </a>
+				</h4>
+			</div>
+			<div id="collapse6" class="panel-collapse collapse">
+			<div class="panel-body"><p>
+				Det kan være flere årsaker til at estimatet er for 
+				høyt/lavt. Er din bolig usedvanlig sammenlignet med 
+				andre boliger i samme område, vil prisestimering ofte
+				være vanskeligere da sammenligningsgrunnlaget vil
+				være mindre. Usedvanlige trekk kunne for eksempel
+					være en stor takterrasse eller andre positive/negative 
+					kvaliteter som trekker opp/ned verdien på boligen,
+					som vi ennå ikke har fått inn i modellene.
+					En annen årsak er at det kan forekomme feil i 
+					datagrunnlaget vårt. Vi bruker ulike offentlige 
+					registre til vår data og feil i disse forekommer. 
+					En tredje årsak er at det kan skje ting i markedet
+					som påvirker prisen fortere enn modellene klarer
+						å fange opp endringene. Alle årsaker medvirker 
+						til at vi mener det er lurt å forhøre seg med
+						fagpersoner ved verdivurdering. </p></div>
+									</div>
+								  </div>
+								</div> 
+							</div> 
+						</div> 
+					  </div>
+					</div> 
+				  </div>
+				  
+	</div>
+	</div>
+
+
+<!-- Q AND A-->
+	<!-- partners -->
+	<section class="partners text-center py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<h4 class="text-bl font-weight-bold mb-sm-5 mb-4">Sponsorer og samarbeidspartnere</h4>
+			<ul class="list-unstyled partners-icon pt-5">
+				<li>
+					<img src="/images/Samarbeidspartner1.png" alt="" class="img-fluid">
+				</li>
+				<li>
+					<img src="/images/Samarbeidspartner2.png" alt="" class="img-fluid">
+				</li>
+			</ul>
+		</div>
+	</section>
+	<!-- //partners -->
+
+	<!-- footer -->
+	<footer class="pt-sm-5 pt-3">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="row footer-grids py-4">
+				<div class="col-lg-4 footer-grid text-left">
+					<div class="footer-logo">
+						<h2 class="mb-3">
+								<img src="/images/HF_logo.svg" alt="" class="img-fluid">
+						</h2>
+					</div>
+				</div>
+				<div class="col-lg-2 col-6  footer-grid my-lg-0 my-4">
+					<h3 class="mb-sm-4 mb-3 pb-3">Hjem</h3>
+					<ul class="list-unstyled">
+						<li>
+							<a href="index.html">Sälj</a>
+						</li>
+						<li class="my-2">
+							<a href="#">Köp</a>
+						</li>
+						<li>
+							<a href="#">Om oss</a>
+						</li>
+					
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid my-lg-0 my-4">
+					<h3 class="mb-sm-4 mb-3 pb-3"> Mer</h3>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">Kommer snart</a>
+						</li>
+						<li class="my-2">
+							<a href="#">Q and A</a>
+						</li>
+						<li>
+							<a href="#">Kommer snart</a>
+						</li>
+						<li class="my-2">
+							<a href="#">Kommer snart</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid">
+					<h3 class="mb-sm-4 mb-3 pb-3">Sociala Medier</h3>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">Facebook</a>
+						</li>
+						<li class="my-2">
+							<a href="#">Instagram</a>
+						</li>
+						<li>
+							<a href="#"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-6 footer-grid footer-contact">
+					<h3 class="mb-sm-4 mb-3 pb-3"> Kontakta oss</h3>
+					<ul class="list-unstyled">
+						<li>
+							<a href="#">	+47 410 14 758</a>
+						</li>
+						<li class="mt-2">
+							<a href="kontakt@homefair.no">kontakt@homefair.no</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- copyright -->
+		<div class="copy_right">
+			<p class="text-center text-wh py-sm-3 py-3">© 2019 HomeFair.
+			</p>
+		</div>
+		<!-- //copyright -->
+	</footer>
+	<!-- //footer -->
+	<!-- move top icon -->
+	<a href="#home" class="move-top text-center"></a>
+	<!-- //move top icon -->
+
+
+</body>
+
+</html>
